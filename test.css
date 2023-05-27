@@ -1,0 +1,626 @@
+@font-face {
+    font-family: "Suisse Intl Medium";
+    src: url(//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.eot);
+    src: url(//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.eot?#iefix) format("embedded-opentype"), url(//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.woff2) format("woff2"), url(//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.woff) format("woff"), url(//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.ttf) format("truetype"), url("//db.onlinewebfonts.com/t/c446362802681bacaacbad0f39bfc1a5.svg#Suisse Intl Medium") format("svg")
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0
+}
+
+svg {
+    height: 30px
+}
+
+.body_wrap {
+    border: 1px red;
+    height: 3700px
+}
+
+.intro_website_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%
+}
+
+.intro_website img {
+    width: 100%;
+    height: auto
+}
+
+.intro_website_small {
+    display: none
+}
+
+.nav_bar {
+    font-family: "Copperplate Gothic";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: .5px solid #a9a9a9;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1030
+}
+
+.nav_bar img {
+    height: 75px
+}
+
+.nav_bar input {
+    cursor: pointer;
+    background-color: #fafafa;
+    border: 1px solid #a1a5a4;
+    height: 35px;
+    width: 750px;
+    font-size: 17px
+}
+
+.input_pack {
+    display: flex;
+    flex-direction: column
+}
+
+.nav_bar i {
+    cursor: pointer
+}
+
+.nav_bar ::placeholder {
+    font-family: "Century Gothic";
+    color: #000
+}
+
+.nav_bar h2 {
+    font-size: 20px
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: #000;
+    margin: 20px
+}
+
+.nav_bar i {
+    color: #000;
+    font-size: 20px
+}
+
+.nav_bar h1 {
+    font-size: 17px
+}
+
+.logo_pack {
+    display: flex;
+    align-items: center
+}
+
+.logo_pack h1 {
+    font-size: 20px;
+    margin-left: -90%
+}
+
+.nav_bar_links {
+    display: flex
+}
+
+.icons_nav_bar i {
+    margin: 20px
+}
+
+.responsive_navbar {
+    border: 2px solid #f4f3f1;
+    background-color: #f4f3f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 99.81%;
+    position: sticky;
+    top: 116px;
+    z-index: 4;
+    font-family: "Copperplate Gothic"
+}
+
+.responsive_navbar i {
+    color: #000;
+    margin-left: 25px
+}
+
+.responsive_navbar a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Copperplate Gothic";
+    margin-right: 15px;
+    font-weight: 800
+}
+
+.slogan {
+    font-family: "Copperplate Gothic";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.slogan_text {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column
+}
+
+.slogan img {
+    height: 650px;
+    rotate: -25deg
+}
+
+.slogan h2 {
+    font-size: 25px;
+    opacity: 80%;
+    font-weight: 200;
+    margin-bottom: -5%
+}
+
+.slogan h1 {
+    font-size: 45px
+}
+
+.title_under_slogan {
+    font-family: "Copperplate Gothic";
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    margin-right: 14%;
+    margin-top: 8%
+}
+
+.trendy_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    margin-top: 2%;
+    margin-bottom: -7.5%;
+    font-size: 25px
+}
+
+.recommended_shoe_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    font-size: 25px;
+}
+
+.shoe_holder_index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px
+}
+
+.shoe_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    width: 350px;
+    height: 450px;
+    cursor: pointer;
+    border: 1px solid #e2e8f0;
+}
+
+.shoe_box button {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-family: "Century Gothic";
+    width: 225px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 7%
+}
+
+.shoe_box button:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.shoe_box img {
+    max-width: 250px;
+    height: auto;
+    display: flex
+}
+
+.shoe_box h1 {
+    font-family: "Copperplate Gothic";
+    font-size: 1.2rem
+}
+
+.shoe_box h4 {
+    font-family: "Suisse Intl Medium";
+    font-size: 1.2rem;
+    opacity: 100%
+}
+
+.shoe_box h2 {
+    font-family: "Suisse Intl Medium";
+    font-size: 1.2rem
+}
+
+.shoe_box_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border: 0 solid #000
+}
+
+.accessories_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px
+}
+
+.sale_ad_holder {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%
+}
+
+.sale_nr_two {
+    display: flex;
+    justify-content: center
+}
+
+.sale_nr_two_small {
+    display: none
+}
+
+.sale_ad_holder_small {
+    display: none
+}
+
+.kids_box_two {
+    margin-right: -5%;
+    margin-left: -5%
+}
+
+.most_bought_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    margin-top: 5%;
+    margin-bottom: -7%;
+    font-size: 25px
+}
+
+.shopping-cart-content-flex {
+    display: flex;
+    justify-content: center
+}
+
+.shopping-cart-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+    border: 1px solid #fff;
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    width: 70%
+}
+
+.shopping-cart-name-hr h1,
+hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.shopping-cart-name-hr h1 {
+    margin-top: 5%;
+    font-family: "Century Gothic";
+    font-weight: 500
+}
+
+.shopping-cart-name-hr hr {
+    width: 70%
+}
+
+.image-image-info {
+    display: flex;
+    align-items: center;
+    width: 50%
+}
+
+.image-image-info img {
+    height: 250px
+}
+
+.image-image-info h1 {
+    font-family: "Century Gothic";
+    font-weight: 500
+}
+
+.image-image-info h2 {
+    font-family: "Century Gothic";
+    font-weight: 300
+}
+
+.shoe_product_pack_flex {
+    display: flex;
+    justify-content: center
+}
+
+.shoe_product_pack {
+    width: 65%;
+    height: 850px
+}
+
+.shoe_product_pack h1 {
+    font-size: 30px
+}
+
+.shoe_product_pack img {
+    height: 500px
+}
+
+.shoe_product_pack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    gap: 80px
+}
+
+.input_shoe_product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%
+}
+
+.input_shoe_product input {
+    height: 20px
+}
+
+.shoe_product_img img {
+    height: 450px
+}
+
+.shoe_product_pack_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.input_shoe_product {
+    gap: 15px
+}
+
+.payment_pack_flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%
+}
+
+.payment_pack {
+    border: 1px solid #000;
+    padding: 70px;
+    border-radius: 5px
+}
+
+.payment_pack i {
+    font-size: 25px
+}
+
+.payment_pack p {
+    font-family: "Century Gothic";
+    font-size: 25px
+}
+
+.payment_button_flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+}
+
+.payment_pack button {
+    border: 2px solid #000;
+    background-color: #000;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "Century Gothic";
+    height: 50px;
+    width: 50%;
+    cursor: pointer
+}
+
+.payment_pack button:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.continue_payment_flex {
+    display: flex;
+    justify-content: center
+}
+
+.continue_payment {
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    min-width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%
+}
+
+.continue_payment p {
+    font-family: "Century Gothic";
+    font-size: 25px
+}
+
+.continue_payment button {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-family: "Century Gothic";
+    width: 225px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 7%;
+    border-radius: 2px
+}
+
+.continue_payment button:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.input_one {
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    font-family: "Century Gothic"
+}
+
+.input_two {
+    margin-top: 2%;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    font-family: "Century Gothic"
+}
+
+.card_info_title {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.footer_all_pages {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Century Gothic";
+    border: 1px solid #242424;
+    background-color: #242424;
+    color: #fff;
+    max-height: 3500px;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0
+}
+
+.links_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.footer_all_pages a {
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.faq_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.shoe_display {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.shoe_display img {
+    height: 150px;
+    border-radius: 5px
+}
+
+.shoe_display a {
+    color: #14591d;
+    font-weight: 800
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block
+}
+
+.tooltiptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    width: 500px;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-family: "Century Gothic";
+    font-size: 25px;
+    position: absolute;
+    z-index: 1
+}
+
+.tooltip:hover+.tooltiptext {
+    visibility: visible
+}
+
+.seen_on_ig {
+    width: 60%;
+    gap: 30px;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seen_on_ig_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ig_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Suisse Intl Medium";
+    margin-top: 4%;
+    margin-bottom: -2%;
+    font-size: 25px
+}
+
+.seen_on_ig_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seen_on_ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

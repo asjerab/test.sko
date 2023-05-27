@@ -1,0 +1,411 @@
+@media screen and (max-width: 1920px) {
+    img {
+        transition: all 300ms ease-in-out;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1760px) {
+    .responsive_navbar i {
+        display: none;
+    }
+
+    .res-house {
+        display: none;
+    }
+
+    .res-shopping {
+        display: none;
+    }
+
+    .res-user {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1800px) {
+    .slogan img {
+        height: 550px;
+    }
+
+    .shoe_product_pack {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1760px) {}
+
+
+
+
+@media screen and (max-width: 1759px) {
+    .icons_nav_bar {
+        display: none;
+    }
+
+    .nav_bar_links {
+        display: none;
+    }
+
+    .slogan img {
+        height: 500px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1625px) {
+    .sale_nr_two {
+        display: none;
+    }
+
+
+    .sale_nr_two_small {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sale_ad_holder {
+        display: none;
+    }
+
+    .sale_ad_holder_small {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1571px) {
+    .slogan {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .input_pack input {
+        width: 500px;
+    }
+
+    .slogan_text {
+        margin-left: 0;
+    }
+
+    .slogan img {
+        rotate: -2deg;
+    }
+
+    .intro_website {
+        height: 450px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1415px) {
+    .index_first_row_shoe_one_pack {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index_first_row_shoe_one_pack {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-cart-box-info h1,
+    h2 {
+        font-size: 15px;
+    }
+
+    .image-cart-box img {
+        height: 220px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .shoe_product_pack {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .title_under_slogan {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1181px) {
+    .input_pack input {
+        width: 500px;
+    }
+
+    .accessorie_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index_first_row_shoe_one_pack {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-cart-box-info h1,
+    h2 {
+        font-size: 15px;
+    }
+
+    .image-cart-box img {
+        height: 220px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .intro_website {
+        height: 300px;
+    }
+
+    .footer_all_pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 65px;
+        height: 127%;
+    }
+
+
+    .shoe_product_pack h1 {
+        font-size: 20px;
+    }
+
+    .shoe_product_pack p {
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .slogan img {
+        height: 350px;
+        rotate: -2deg;
+    }
+
+    .slogan h1,
+    h2 {
+        font-size: 40px;
+    }
+
+    .index_first_row_shoe_one_pack {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-cart-box-info h1,
+    h2 {
+        font-size: 15px;
+    }
+
+    .image-cart-box img {
+        height: 220px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .footer_all_pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 65px;
+        height: 115%;
+    }
+
+    .sale_ad_holder {
+        display: none;
+    }
+
+    .shoe_product_pack img {
+        height: 300px;
+    }
+
+    .shoe_product_pack {
+        text-align: center;
+    }
+
+    .input_shoe_product {
+        display: block;
+
+    }
+
+    .shopping-cart-content-wrap img {
+        height: 120px;
+    }
+
+
+    .shopping-cart-content-wrap i {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .nav_bar input {
+        display: none;
+    }
+
+    .shoe_product_pack img {
+        height: 250px;
+    }
+
+    .shoe_product_pack h1 {
+        font-size: 20px;
+    }
+
+    .shoe_product_info p {
+        font-size: 12px;
+    }
+
+    .logo_pack {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro_website {
+        display: none;
+    }
+
+    .intro_website_small {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .sale_nr_two_small {
+        height: 550px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+
+    }
+
+    .sale_ad_holder_small {
+        height: 550px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .slogan h1 {
+        font-size: 25px;
+    }
+
+
+    .slogan img {
+        height: 300px;
+    }
+
+    .trendy_title {
+        font-size: 20px;
+    }
+
+    .tooltip {
+        height: 25px;
+    }
+
+    .accessories_title {
+        font-size: 20px;
+
+    }
+
+    .shoe_box {
+        width: 275px;
+    }
+
+    .shoe_box img {
+        height: 150px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .slogan img {
+        display: none;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .accessorie_box {
+        display: none;
+    }
+
+
+    .accessories_title {
+        display: none;
+    }
+
+}
