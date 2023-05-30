@@ -6,17 +6,13 @@
 
 body {
     overflow-x: hidden;
-    margin: 0
 }
 
 svg {
     height: 30px
 }
 
-.body_wrap {
-    border: 1px red;
-    height: 3700px
-}
+
 
 .intro_website_wrap {
     display: flex;
@@ -34,7 +30,7 @@ svg {
 }
 
 .nav_bar {
-    font-family: "Copperplate Gothic";
+    font-family: "Suisse Intl Medium";
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -69,7 +65,7 @@ svg {
 }
 
 .nav_bar ::placeholder {
-    font-family: "Century Gothic";
+    font-family: "Suisse Intl Medium";
     color: #000
 }
 
@@ -117,11 +113,10 @@ svg {
     justify-content: center;
     align-items: center;
     height: 53px;
-    width: 99.81%;
+    width: 100%;
     position: sticky;
     top: 116px;
     z-index: 4;
-    font-family: "Copperplate Gothic"
 }
 
 .responsive_navbar i {
@@ -132,7 +127,7 @@ svg {
 .responsive_navbar a {
     color: #000;
     text-decoration: none;
-    font-family: "Copperplate Gothic";
+    font-family: "Suisse Intl Medium";
     margin-right: 15px;
     font-weight: 800
 }
@@ -211,7 +206,7 @@ svg {
     width: 350px;
     height: 450px;
     cursor: pointer;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #EDEDED;
 }
 
 .shoe_box button {
@@ -237,7 +232,7 @@ svg {
 }
 
 .shoe_box h1 {
-    font-family: "Copperplate Gothic";
+    font-family: "Suisse Intl Medium";
     font-size: 1.2rem
 }
 
@@ -393,6 +388,56 @@ hr {
 
 .shoe_product_img img {
     height: 450px
+}
+
+.shoe_product_buton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    padding-bottom: 50px;
+}
+
+.shoe_product_buton button {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-family: "Century Gothic";
+    height: 50px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.shoe_product_buton button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.item-cart-price {
+    font-family: "Suisse Intl Medium";
+    font-size: 20px;
+}
+
+.fjernsko {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    counter-reset: #000;
+
+}
+
+.fjernsko i {
+    color: #000;
+    font-size: 25px;
+}
+
+.quantity-box-pack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10.5px;
+    font-family: "Century Gothic";
+    font-weight: 200;
 }
 
 .shoe_product_pack_wrap {

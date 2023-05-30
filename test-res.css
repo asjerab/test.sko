@@ -207,7 +207,7 @@
     .footer_all_pages {
         height: 150%;
     }
-    
+
 }
 
 @media screen and (max-width:900px) {
@@ -253,8 +253,42 @@
         height: 550px
     }
 
-    .nav_bar_wrapper {}
 }
+
+@media screen and (max-width:750px) {
+    .responsive_navbar {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: ease-in-out;
+        height: 105px;
+    }
+
+    .image-cart-box img {
+        height: 70px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .quantity-box-pack h2 {
+        font-size: 10px;
+    }
+
+    .image-cart-box-info h1 {
+        font-size: 12px;
+    }
+
+    .image-cart-box-info h2 {
+        font-size: 12px;
+    }
+
+    .shopping-cart-content-wrap {
+        height: 150px;
+    }
+}
+
 
 @media screen and (max-width:600px) {
     .slogan h1 {
@@ -283,5 +317,84 @@
 
     .shoe_box img {
         height: 150px
+    }
+
+    .image-cart-box img {
+        height: 70px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .quantity-box-pack h2 {
+        font-size: 10px;
+    }
+
+    .image-cart-box-info h1 {
+        font-size: 12px;
+    }
+
+    .image-cart-box-info h2 {
+        font-size: 12px;
+    }
+
+    .shopping-cart-content-wrap {
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .image-cart-box img {
+        height: 70px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .quantity-box-pack h2 {
+        font-size: 10px;
+    }
+
+    .image-cart-box-info h1 {
+        font-size: 12px;
+    }
+
+    .image-cart-box-info h2 {
+        font-size: 12px;
+    }
+
+    .shopping-cart-content-wrap {
+        height: 150px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .image-cart-box img {
+        height: 70px;
+    }
+
+    .quantity-box-pack h1 {
+        font-size: 15px;
+    }
+
+    .quantity-box-pack h2 {
+        font-size: 10px;
+    }
+
+    .image-cart-box-info h1 {
+        font-size: 12px;
+    }
+
+    .image-cart-box-info h2 {
+        font-size: 12px;
+    }
+
+    .shopping-cart-content-wrap {
+        height: 150px;
+        width: 90%;
     }
 }

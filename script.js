@@ -1,5 +1,8 @@
 
 
+
+
+// Dette er sko arrayet mit, hele handlekruv funskjonen min er bygd opp på dette arrayet
 let products;
 
 let storedProducts = localStorage.getItem('products');
@@ -24,9 +27,11 @@ else {
     ];
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////77
 
 
 
+// Dette er en funksjon som lar meg fjerne sko fra handlekurven min
 
 
 function removeShoe(index) {
@@ -36,11 +41,19 @@ function removeShoe(index) {
     window.location.reload()
 }
 
-let adBUtton = document.querySelector('.sale_nr_two_small')
+window.addEventListener('load', () => {
+    if (document.URL.includes('index.html')) {
+        let adBUtton = document.querySelector('.sale_nr_two_small')
 
-adBUtton.addEventListener('click', () => {
-    location.href = 'produkt.html?id=8'
+        adBUtton.addEventListener('click', () => {
+            location.href = 'produkt.html?id=8'
+        })
+    }
 })
+
+
+
+////////////////////////////////////////////////////////////////
 
 
 
@@ -124,6 +137,8 @@ function displayCart() {
 
 
 
+
+// Dette er kode som lar meg øke og redusere hvor mange sko jeg vil ha i handlekurven min
 function increaseQuantity(index) {
     const product = products[index]
     product.antall++;
@@ -140,6 +155,9 @@ function decreaseQuantity(index) {
     displayCart();
     window.location.reload()
 }
+
+/////////////////////////////////////////////////////////////////////////////
+
 
 
 
